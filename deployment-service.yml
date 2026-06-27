@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: bloggingapp
-          image: intvish/bloggingapp-app-1:latest # Updated image to private DockerHub image
+          image: intvish/blogging-app-1:latest # Updated image to private DockerHub image
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
